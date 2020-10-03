@@ -30,8 +30,17 @@ Snapshot of `text_root`. Redirected pages are removed
 └── 999
 ```
 
+Corpus size
+- number of articles: 1542616
+- after removing redirect page: 886621
+
 Run below script to make train, dev, test dataset. Check `n_train`, `n_dev`, and `n_test` in `concatenate.py`
 
 ```
 python concatenate.py
 ```
+
+Corpus size
+- train : 26827837 lines (877754 articles)
+- dev : 130568 lines (4433 articles)
+- test : 134478 lines (4433 articles)
