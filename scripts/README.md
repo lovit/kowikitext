@@ -41,9 +41,9 @@ python concatenate.py
 ```
 
 Corpus size
-- train : 26827837 lines (877754 articles)
-- dev : 130568 lines (4433 articles)
-- test : 134478 lines (4433 articles)
+- train : 26794425 lines (877754 articles)
+- dev : 130419 lines (4433 articles)
+- test : 134340 lines (4434 articles)
 
 Zip concatenated files
 

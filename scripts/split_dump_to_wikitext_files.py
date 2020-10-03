@@ -25,7 +25,7 @@ def transform_page_to_wikitext(page):
             return ''
         if line[:2] == '* ' or line[:2] == '**':
             return line[2:].strip()
-        if line[:2] == '{|' or line[:1] == '|' or 'right|' in line or 'px|' in line:
+        if line[:2] == '{|' or line[:1] == '|' or 'right|' in line[:20] or 'px|' in line[:20]:
             return ''
         return line.strip()
 
