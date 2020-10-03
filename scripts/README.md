@@ -44,3 +44,11 @@ Corpus size
 - train : 26827837 lines (877754 articles)
 - dev : 130568 lines (4433 articles)
 - test : 134478 lines (4433 articles)
+
+Zip concatenated files
+
+```
+zip kowikitext_20200920.train.zip kowikitext_20200920.train
+zip kowikitext_20200920.test.zip kowikitext_20200920.test
+zip kowikitext_20200920.dev.zip kowikitext_20200920.dev
+```
