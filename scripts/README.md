@@ -32,7 +32,7 @@ Snapshot of `text_root`. Redirected pages are removed
 
 Corpus size
 - number of articles: 1542616
-- after removing redirect page: 886621
+- after removing redirect page: 878101
 
 Run below script to make train, dev, test dataset. Check `n_train`, `n_dev`, and `n_test` in `concatenate.py`
 
@@ -41,9 +41,9 @@ python concatenate.py
 ```
 
 Corpus size
-- train : 26794425 lines (877754 articles)
-- dev : 130419 lines (4433 articles)
-- test : 134340 lines (4434 articles)
+- train : 14528095 lines (868230 articles)
+- dev : 76788 lines (4385 articles)
+- test : 70774 lines (4386 articles)
 
 Zip concatenated files
 

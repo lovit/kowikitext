@@ -5,9 +5,9 @@ Wikitext format Korean corpus
 [한국어 위키의 덤프 데이터](https://dumps.wikimedia.org/kowiki/)를 바탕을 제작한 wikitext 형식의 텍스트 파일입니다.
 
 Corpus size
-- train : 26794425 lines (877754 articles)
-- dev : 130419 lines (4433 articles)
-- test : 134340 lines (4434 articles)
+- train : 14528095 lines (868230 articles)
+- dev : 76788 lines (4385 articles)
+- test : 70774 lines (4386 articles)
 
 To fetch data, run below script. Then three corpus, train / dev / test files are downloaded at ./data/
 
